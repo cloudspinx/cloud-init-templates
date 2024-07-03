@@ -1,0 +1,26 @@
+#cloud-config
+#
+# Above first line indicates that the file is a Cloud-Init configuration file. Don't remove it
+
+# Set the hostname for the instance
+#hostname: server1.example.com
+#manage_etc_hosts: true
+
+# Update the package list
+package_update: true
+
+# Upgrade all installed packages to their latest versions
+package_upgrade: true
+
+# List of packages to install
+packages:
+  - bash-completion # Programmable completion for the bash shell
+  - git             # Distributed version control system
+  - vim             # Text editor
+  - wget            # Network downloader
+  - curl            # Tool to transfer data from or to a server
+  - python3         # Python 3 interpreter
+  - python3-pip     # Package installer for Python 3
+
+# Reboot after package install/update if necessary 
+package_reboot_if_required: true
