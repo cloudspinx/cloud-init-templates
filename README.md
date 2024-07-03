@@ -1,7 +1,4 @@
 # cloud-init-templates
-
-Simplify cloud instance provisioning with pre-configured cloud-init templates.
-
 This repository provides a collection of reusable cloud-init configuration files for various purposes.
 
 - Automate common tasks: Use templates to automate user creation, package installation, security configuration, and more during cloud instance boot.
