@@ -1,4 +1,5 @@
 # cloud-init-templates
+
 Simplify cloud instance provisioning with pre-configured cloud-init templates.
 
 This repository provides a collection of reusable cloud-init configuration files for various purposes.
@@ -21,8 +22,8 @@ Getting Started:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your_username>/cloud-init-templates.git
+git clone https://github.com/cloudspinx/cloud-init-templates.git
 ```
-3. Browse the available cloud-init templates.
+3. Browse the available `cloud-init` templates.
 4. Customize templates as needed for your specific use case.
 5. Integrate the templates into your cloud provisioning workflow (e.g., Terraform, CloudFormation).
